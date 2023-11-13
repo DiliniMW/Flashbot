@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="firstName">Marina</string>
+    <string name="secondName">Dona</string>
+    <string name="thirdName">Emma</string>
+    <string name="flashbot">Flash Bot !</string>
+    <string name="command">Command</string>
+    <string name="sensors">Sensors List</string>
+    <string name="aboutus">About Us</string>
+    <string name="bluetoothcontrol">Bluetooth Control</string>
+    <string name="brightnesscontrol">Brightness Control</string>
+    <string name="parameters">Parameters</string>
+    <string name="brightness">Screen Brightness</string>
+    <string name="automatic">Automatic</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="Bluetooth">Bluetooth</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="Brightness">Brightness</string>
+</resources>

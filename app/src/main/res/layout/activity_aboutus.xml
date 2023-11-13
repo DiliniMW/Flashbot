@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_opaque"
+    tools:context=".AboutUsActivity">
+
+    <ImageView
+        android:id="@+id/firstMemberImageView"
+        android:layout_width="139dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48"
+        app:srcCompat="@drawable/red" />
+
+    <ImageView
+        android:id="@+id/secondMemberImageVIew"
+        android:layout_width="142dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/firstMemberImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toEndOf="@+id/firstMemberImageView"
+        app:layout_constraintTop_toTopOf="@+id/firstMemberImageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cars3" />
+
+    <ImageView
+        android:id="@+id/thirdMemberImageView"
+        android:layout_width="149dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="@+id/secondMemberImageVIew"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="@+id/firstMemberImageView"
+        app:layout_constraintTop_toBottomOf="@+id/firstMemberImageView"
+        app:srcCompat="@drawable/yo" />
+
+    <TextView
+        android:id="@+id/firstMemberTextView"
+        android:layout_width="109dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="#64000000"
+        android:text="@string/firstName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#ece121"
+        app:layout_constraintEnd_toEndOf="@+id/firstMemberImageView"
+        app:layout_constraintStart_toStartOf="@+id/firstMemberImageView"
+        app:layout_constraintTop_toBottomOf="@+id/firstMemberImageView" />
+
+    <TextView
+        android:id="@+id/secondMemberTextView"
+        android:layout_width="80dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:background="#64000000"
+        android:text="@string/secondName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#ece121"
+        app:layout_constraintEnd_toEndOf="@+id/secondMemberImageVIew"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="@+id/secondMemberImageVIew"
+        app:layout_constraintTop_toBottomOf="@+id/secondMemberImageVIew" />
+
+    <TextView
+        android:id="@+id/thirdMemberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#64000000"
+        android:text="@string/thirdName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#ece121"
+        app:layout_constraintEnd_toEndOf="@+id/thirdMemberImageView"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/thirdMemberImageView"
+        app:layout_constraintTop_toBottomOf="@+id/thirdMemberImageView" />
+
+    <ImageView
+        android:id="@+id/aboutUsImageView"
+        android:layout_width="287dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/about_us" />
+</androidx.constraintlayout.widget.ConstraintLayout>
